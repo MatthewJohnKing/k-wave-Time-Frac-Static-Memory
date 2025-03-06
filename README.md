@@ -31,32 +31,7 @@ BirkSongpts.m
   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-checkstability.m
-kspaceFirstOrder1DTF.m
-kspaceFirstOrder2DTF.m
-kspaceFirstOrder3DTF.m
-kspaceFirstOrder3DTFv2.m
-kspaceFirstOrder1Dalpha.m
-kspaceFirstOrder2Dalpha.m
-kspaceFirstOrder3Dalpha.m
-private/kspaceFirstOrder_inputChecking.m
-			 /kspaceFirstOrder_createAbsorptionVariables.m
-			 /kspaceFirstOrder_expandGridMatricies.m
-  Modified from files of alike name, and kspaceFirstOrder1D.m , kspaceFirstOrder2D.m AND kspaceFirstOrder3D.m respectively from the kwave toolbox.
-	These code modifications have been completed to the best of the authors knowledge within the GNU Lesser General Public License. Under the
-  initial copywrites
-	Copyright (C) 2009-2019 Bradley Treeby and Ben Cox
-  For further information see http://www.k-wave.org , https://github.com/ucl-bug/k-wave
+`checkstability.m` `kspaceFirstOrder1DTF.m` `kspaceFirstOrder2DTF.m` `kspaceFirstOrder3DTF.m` `kspaceFirstOrder3DTFv2.m` `kspaceFirstOrder1Dalpha.m` `kspaceFirstOrder2Dalpha.m` `kspaceFirstOrder3Dalpha.m` `private/kspaceFirstOrder_inputChecking.m` `/kspaceFirstOrder_createAbsorptionVariables.m` `/kspaceFirstOrder_expandGridMatricies.m` Modified from files of alike name, and `kspaceFirstOrder1D.m` , `kspaceFirstOrder2D.m` AND `kspaceFirstOrder3D.m` respectively from the kwave toolbox. These code modifications have been completed to the best of the authors knowledge within the GNU Lesser General Public License. Under the initial copywrites Copyright (C) 2009-2019 Bradley Treeby and Ben Cox For further information see http://www.k-wave.org , https://github.com/ucl-bug/k-wave
 
-Folders Included are k-wave-TF containing the full files of the original k-wave package 
-as found at the above pages, as well as with the named files, including the adjusted files.
-Inclusion of the Chebfun functions may be required, please see the above resotitory or website.
-Finally, scripts for producing the figures in [to be published] are included.
-These may additionally be used as examples for how to fun the code within MATLAB.
 
-Each of kspaceFirstOrder1DTF.m , kspaceFirstOrder2DTF.m , kspaceFirstOrder3DTF.m , kspaceFirstOrder3DTFv2.m
-kspaceFirstOrder1Dalpha.m , kspaceFirstOrder2Dalpha.m and kspaceFirstOrder3Dalpha.m are run identically to
-kspaceFirstOrder1D.m etc but ...DTF.m files require the definition of a scalar medium.alpha_L the nuber of Birk-Song 
-quadrature points and weights to be considered. All of these files can run with medium.alpha_power and 
-medium.alpha_coeff given as scalar or grid-sized variable.
-	
+Each of `kspaceFirstOrder1DTF.m` , `kspaceFirstOrder2DTF.m` , `kspaceFirstOrder3DTF.m` , `kspaceFirstOrder3DTFv2.m` `kspaceFirstOrder1Dalpha.m` , `kspaceFirstOrder2Dalpha.m` and `kspaceFirstOrder3Dalpha.m` are run identically to `kspaceFirstOrder1D.m` etc but `...DTF.m` files require the definition of a scalar `medium.alpha_L` the nuber of Birk-Song quadrature points and weights to be considered. All of these files can run with `medium.alpha_power` and `medium.alpha_coeff` given as scalar or grid-sized variable.
